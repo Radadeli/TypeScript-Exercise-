@@ -7,9 +7,9 @@ class Currency {
     // Hint: Look at the type of values being passed when `new Currency()`
     // is called below.
 
-    name: string
-    code: string
-    symbol: string 
+   private name: string
+    private code: string
+    private symbol: string 
 
     // Add types to the constructor parameters.
 
@@ -30,7 +30,7 @@ class Currency {
     // Add a return type for this method
     // Hint: Look at the inferred return type.
 
-    describe(): void {
+    public describe(): void {
         // Replace the `null` values below with the appropriate field values.
         // Hint: Access field values with: this.fieldName
 
